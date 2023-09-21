@@ -11,7 +11,10 @@ a {
 }
 
 /* header */
-.header {}
+.header {
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+}
 
 .header-navigation {}
 
@@ -50,6 +53,11 @@ a {
     letter-spacing: 0.02em;
 }
 
+.header-menu-list .header-menu-link:hover {
+    color: #404BBF;
+}
+
+
 .header-address {}
 
 .header-address-menu-list {}
@@ -63,6 +71,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.header-address-menu-list .header-address-mail-phone:active {
+    color: #404BBF;
+}
+
 
 /* business */
 .business {
@@ -88,10 +101,20 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
+    cursor: pointer;
 
 }
 
+.business-btn:hover {
+    color: #404BBF;
+}
+
+
 /* desc */
+.desc {
+    background: #FFF;
+}
+
 .desc .link {}
 
 .desc-title {}
@@ -117,17 +140,18 @@ a {
     letter-spacing: 0.02em;
 }
 
-.centrum {}
+.centrum {
+    background: #F4F4FD;
+}
 
 .centrum-title {
     color: #2E2F42;
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
+
 
 .centrum-list {}
 
@@ -151,7 +175,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.portfolio {}
+.portfolio {
+    background: #FFF;
+}
 
 .portfolio-title {
     color: #2E2F42;
@@ -159,56 +185,57 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+}
 
-    .portfolio-list {}
+.portfolio-list {}
 
-    .portfolio-item {}
+.portfolio-item {}
 
-    .portfolio-photo {}
+.portfolio-photo {}
 
-    .portfolio-title-name {
-        color: #2E2F42;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
+.portfolio-title-name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-    .portfolio-paragraf {}
+.portfolio-paragraf {}
 
-    .footer {
-        width: 1440px;
-        height: 312px;
-        flex-shrink: 0;
-        background: #2E2F42;
-    }
+.footer {
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+    background: #2E2F42;
+}
 
-    .footer-paragraf {
-        color: #F4F4FD;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+.footer-paragraf {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
-    .footer-logo {
-        color: #F4F4FD;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase
-    }
+.footer-logo {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
 
-    .footer-web {
-        color: #4D5AE5;
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
+.footer-web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
