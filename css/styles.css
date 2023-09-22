@@ -95,9 +95,6 @@ a {
 /* business */
 .business {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
 
 .business-title {
@@ -240,9 +237,6 @@ a {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
     background: #2E2F42;
 }
 
