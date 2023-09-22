@@ -17,7 +17,7 @@ a {
     background: #FFF;
 }
 
-.header-navigation {}
+
 
 .header-logo {
     color: #4d5ae5;
@@ -38,7 +38,10 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
+
+.header-navigation {}
 
 .header-menu-list {}
 
