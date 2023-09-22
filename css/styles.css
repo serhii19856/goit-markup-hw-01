@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -19,22 +21,22 @@ a {
 .header-navigation {}
 
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.header-web {
-    color: #4D5AE5;
-    font-family: Raleway;
+.header-studio {
+    color: #2e2f42;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -57,6 +59,9 @@ a {
     color: #404BBF;
 }
 
+.header-menu-list .header-menu-link:focus {
+    color: #404BBF;
+}
 
 .header-address {}
 
@@ -65,14 +70,20 @@ a {
 .header-address-menu-item {}
 
 .header-address-mail-phone {
-    color: #2E2F42;
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal
 }
 
 .header-address-menu-list .header-address-mail-phone:active {
+    color: #404BBF;
+}
+
+.header-address-menu-list .header-address-mail-phone:hover,
+.header-address-menu-list .header-address-mail-phone:focus {
     color: #404BBF;
 }
 
@@ -96,19 +107,22 @@ a {
 }
 
 .business-btn {
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     cursor: pointer;
-
+    font-family: "Roboto", sans-serif
 }
 
-.business-btn:hover {
-    color: #404BBF;
+.business-btn:hover,
+.business-btn:focus {
+    background-color: #404BBF
 }
 
+.business-btn:focus
 
 /* desc */
 .desc {
@@ -150,6 +164,7 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center text-transform: capitalize
 }
 
 
@@ -185,6 +200,8 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center
 }
 
 .portfolio-list {}
@@ -219,23 +236,24 @@ a {
 }
 
 .footer-logo {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
-.footer-web {
-    color: #4D5AE5;
-    font-family: Raleway;
+.footer-studio {
+    color: #F4F4FD;
+
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
