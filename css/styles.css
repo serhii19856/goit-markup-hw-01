@@ -14,7 +14,6 @@ a {
 
 /* header */
 .header {
-    border-bottom: 1px solid #E7E9FC;
     background: #FFF;
 }
 
@@ -112,7 +111,6 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4D5AE5;
     cursor: pointer;
     font-family: "Roboto", sans-serif
 }
